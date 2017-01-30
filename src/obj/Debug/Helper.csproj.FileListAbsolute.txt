@@ -1,0 +1,5 @@
+D:\GIT\helper\src\bin\Debug\Helper.dll
+D:\GIT\helper\src\bin\Debug\Helper.pdb
+D:\GIT\helper\src\obj\Debug\Helper.dll
+D:\GIT\helper\src\obj\Debug\Helper.pdb
+D:\GIT\helper\src\obj\Debug\Helper.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+D:\GIT\helper\tests\obj\Debug\HelperTest.csprojResolveAssemblyReference.cache
+D:\GIT\helper\tests\bin\Debug\HelperTest.dll
+D:\GIT\helper\tests\bin\Debug\HelperTest.pdb
+D:\GIT\helper\tests\bin\Debug\Helper.dll
+D:\GIT\helper\tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\GIT\helper\tests\bin\Debug\Helper.pdb
+D:\GIT\helper\tests\obj\Debug\HelperTest.dll
+D:\GIT\helper\tests\obj\Debug\HelperTest.pdb
