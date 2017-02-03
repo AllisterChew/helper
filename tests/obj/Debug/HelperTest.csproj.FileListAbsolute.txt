@@ -6,3 +6,11 @@ D:\GIT\helper\tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramew
 D:\GIT\helper\tests\bin\Debug\Helper.pdb
 D:\GIT\helper\tests\obj\Debug\HelperTest.dll
 D:\GIT\helper\tests\obj\Debug\HelperTest.pdb
+D:\GIT\personal\helper\tests\bin\Debug\HelperTest.dll
+D:\GIT\personal\helper\tests\bin\Debug\HelperTest.pdb
+D:\GIT\personal\helper\tests\bin\Debug\Helper.dll
+D:\GIT\personal\helper\tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\GIT\personal\helper\tests\bin\Debug\Helper.pdb
+D:\GIT\personal\helper\tests\obj\Debug\HelperTest.csprojResolveAssemblyReference.cache
+D:\GIT\personal\helper\tests\obj\Debug\HelperTest.dll
+D:\GIT\personal\helper\tests\obj\Debug\HelperTest.pdb

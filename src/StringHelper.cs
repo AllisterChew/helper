@@ -18,7 +18,7 @@ namespace Helper
 
         public string TruncateWord(string input, int length)
         {
-            if ( String.IsNullOrEmpty(input) || input.Length < length || input.IndexOf(" ", length) == -1)
+            if (String.IsNullOrEmpty(input) || input.Length < length || input.IndexOf(" ", length) == -1)
                 return input;
 
             return String.Format("{0}...", input.Substring(0, input.IndexOf(" ", length)));
@@ -28,12 +28,26 @@ namespace Helper
         {
             int value = 0;
 
-            if(!Int32.TryParse(input, out value))
+            if (!Int32.TryParse(input, out value))
             {
                 return -1;
             }
 
             return value;
+        }
+
+        public List<string> ExplodeToList(string input, char delimeter)
+        {
+            List<string> result = input.Split(delimeter).ToList();
+
+            return result;
+        }
+
+        public string ImplodeToString(List<string> input, string delimeter)
+        {
+            string result = string.Join(delimeter, input.ToArray());
+
+            return result;
         }
     }
 }

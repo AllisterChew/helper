@@ -1,5 +1,6 @@
 ﻿using Helper;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace HelperTest
 {
@@ -25,6 +26,34 @@ namespace HelperTest
         {
             StringHelper sh = new StringHelper();
             Assert.AreEqual(sh.StringToInt("8"), 8);
+        }
+
+        [TestMethod]
+        public void ExplodeToList()
+        {
+            StringHelper sh = new StringHelper();
+
+            var result = new List<string>();
+            result.Add("this");
+            result.Add("is");
+            result.Add("a");
+            result.Add("test");
+
+            CollectionAssert.AreEqual(sh.ExplodeToList("this is a test", ' '), result);
+        }
+
+        [TestMethod]
+        public void ImplodeToString()
+        {
+            StringHelper sh = new StringHelper();
+
+            var result = new List<string>();
+            result.Add("this");
+            result.Add("is");
+            result.Add("a");
+            result.Add("test");
+
+            Assert.AreEqual(sh.ImplodeToString(result, " "), "this is a test");
         }
 
         [TestMethod]
