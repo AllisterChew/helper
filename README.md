@@ -1,4 +1,4 @@
-# helper
+# Helper
 Personalised helper class
 
 ### StringHelper
