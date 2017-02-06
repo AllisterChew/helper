@@ -1,4 +1,4 @@
-# Helper
+# C# Helper
 Personalised helper class
 
 ### StringHelper
